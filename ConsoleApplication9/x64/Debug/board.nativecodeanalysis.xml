@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>board.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>board::{ctor}</FUNCTION>
+    <DECORATED>??0board@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>board.cpp</FILENAME>
+      <LINE>213</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>board::getOppoPossibleMoves</FUNCTION>
+    <DECORATED>?getOppoPossibleMoves@board@@QEAA?AV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>191</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

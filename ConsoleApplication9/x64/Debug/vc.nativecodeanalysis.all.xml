@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>bishop.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>bishop::{ctor}</FUNCTION>
+    <DECORATED>??0bishop@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>board.cpp</FILENAME>
+      <LINE>17</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>board::{ctor}</FUNCTION>
+    <DECORATED>??0board@@QEAA@XZ</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>board.cpp</FILENAME>
+      <LINE>213</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>board::getOppoPossibleMoves</FUNCTION>
+    <DECORATED>?getOppoPossibleMoves@board@@QEAA?AV?$vector@V?$vector@HV?$allocator@H@std@@@std@@V?$allocator@V?$vector@HV?$allocator@H@std@@@std@@@2@@std@@H@Z</DECORATED>
+    <FUNCLINE>191</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>gamefunctions.h</FILENAME>
+      <LINE>92</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>playTurn</FUNCTION>
+    <DECORATED>?playTurn@@YA_NH@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>gamefunctions.h</FILENAME>
+      <LINE>150</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>playTurn</FUNCTION>
+    <DECORATED>?playTurn@@YA_NH@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>gamefunctions.h</FILENAME>
+      <LINE>161</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26444</DEFECTCODE>
+    <DESCRIPTION>Avoid unnamed objects with custom construction and destruction (es.84).</DESCRIPTION>
+    <FUNCTION>playTurn</FUNCTION>
+    <DECORATED>?playTurn@@YA_NH@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>king.cpp</FILENAME>
+      <LINE>11</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>king::{ctor}</FUNCTION>
+    <DECORATED>??0king@@QEAA@XZ</DECORATED>
+    <FUNCLINE>11</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>knight.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>knight::{ctor}</FUNCTION>
+    <DECORATED>??0knight@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>pawn.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>pawn::{ctor}</FUNCTION>
+    <DECORATED>??0pawn@@QEAA@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>piece.cpp</FILENAME>
+      <LINE>8</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>piece::{ctor}</FUNCTION>
+    <DECORATED>??0piece@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>queen.cpp</FILENAME>
+      <LINE>12</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>queen::{ctor}</FUNCTION>
+    <DECORATED>??0queen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>12</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>rook.cpp</FILENAME>
+      <LINE>9</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>rook::{ctor}</FUNCTION>
+    <DECORATED>??0rook@@QEAA@XZ</DECORATED>
+    <FUNCLINE>9</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\krish\source\repos\consoleapplication9 - copy\consoleapplication9\</FILEPATH>
+      <FILENAME>square.cpp</FILENAME>
+      <LINE>5</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>square::{ctor}</FUNCTION>
+    <DECORATED>??0square@@QEAA@XZ</DECORATED>
+    <FUNCLINE>5</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
